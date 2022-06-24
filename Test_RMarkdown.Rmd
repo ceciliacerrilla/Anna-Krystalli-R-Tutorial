@@ -1,0 +1,25 @@
+---
+title: "Analysis of NEON woody plant vegetation structure data"
+author: "Cecilia Cerrilla"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cosmo
+    highlight: zenburn
+---
+
+# Background
+
+## Description
+- Structure measurements of individual **woody** and **non-herbaceous** perennial plants, and mapped position of qualifying *woody* and *non-woody* plants.
+- This should look like a second bullet point
+- ~~This should be struck through~~
+
+![Sandfish Eggs](images/Eggs.jpeg) 
+
+```{r, echo = TRUE, tidy = TRUE}
+print('hello world!')
+```
+

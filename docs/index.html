@@ -1,0 +1,519 @@
+<html>
+  <head>
+    <title>NEON Woody plant survey data: ACCE DTP analytical subset</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="application/ld+json">
+      {
+  "@context": "http://schema.org",
+  "type": "Dataset",
+  "name": "NEON Woody plant survey data: ACCE DTP analytical subset",
+  "creator": [
+    {
+      "type": "Person",
+      "id": "0000-0003-0051-4434",
+      "email": "cecilia.cerrilla@gmail.com",
+      "affiliation": "University of Cape Town",
+      "name": "Cecilia Cerrilla"
+    }
+  ],
+  "description": "This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.",
+  "datePublished": "2020-05-01",
+  "keywords": {},
+  "funder": null,
+  "temporalCoverage": "NA/NA",
+  "license": "CC-BY",
+  "spatialCoverage": {
+    "type": "Place",
+    "name": "NEON Domain areas D01:D09",
+    "geo": {
+      "type": "GeoShape",
+      "box": "NA NA NA NA"
+    }
+  },
+  "variableMeasured": [
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "uid",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "namedLocation",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "date",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "eventID",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "domainID",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "siteID",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "plotID",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "individualID",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "growthForm",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "stemDiameter",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "measurementHeight",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "height",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "uid_map",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "pointID",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "stemDistance",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "stemAzimuth",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "taxonID",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "scientificName",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "taxonRank",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "uid_ppl",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "plotType",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "nlcdClass",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "decimalLatitude",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "decimalLongitude",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "geodeticDatum",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "easting",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "northing",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "utmZone",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "elevation",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "elevationUncertainty",
+      "description": null
+    }
+  ],
+  "distribution": [
+    {
+      "type": "DataDownload",
+      "name": "individual",
+      "contentUrl": null,
+      "encodingFormat": "csv"
+    }
+  ]
+}
+
+    </script>
+    <style>
+      body {
+        font-size: 16px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        margin: 0 auto;
+        padding: 1rem;
+        max-width: 800px;
+      }
+
+      #map {
+        height: 20rem;
+      }
+
+      #attributes-wrapper,
+      #jsonld-wrapper {
+        height: 20rem;
+        overflow-y: scroll;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      th {
+        border-bottom: 1px solid black;
+      }
+
+      th, td {
+        padding: 0.25rem;
+      }
+
+      table.listing td {
+        border: 1px solid #CCC;
+      }
+
+      table.listing tr td:first-child {
+          background-color: #EEE;
+      }
+
+      table.listing ul {
+        margin: 0 0 0 1.5rem;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>NEON Woody plant survey data: ACCE DTP analytical subset</h1>
+    <p><strong>Description:</strong> This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</p>
+
+    <h2>Bibliographic</h2>
+
+    <table class="listing">
+      <tr>
+        <td>Published</td>
+        <td>2020-05-01</td>
+      </tr>
+      <tr>
+        <td>Keywords</td>
+        <td>
+          <ul>
+        </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Funder</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>License</td>
+        <td>CC-BY</td>
+      </tr>
+    </table>
+
+    <h2>Coverage</h2>
+
+    <h3>Temporal</h3>
+
+    <table class="listing">
+      <tr>
+        <td>Begin</td>
+        <td>NA</td>
+      </tr>
+      <tr>
+        <td>End</td>
+        <td>NA</td>
+      </tr>
+    </table>
+
+    <h3>Spatial</h3>
+    <pre><code></code></pre>
+    <div id="map"></div>
+
+    <h2>Attributes</h2>
+
+    <div id="attributes-wrapper">
+      <table id="attributes">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Unit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>uid</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>namedLocation</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>date</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>eventID</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>domainID</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>siteID</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>plotID</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>individualID</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>growthForm</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>stemDiameter</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>measurementHeight</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>height</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>uid_map</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>pointID</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>stemDistance</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>stemAzimuth</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>taxonID</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>scientificName</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>taxonRank</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>uid_ppl</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>plotType</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>nlcdClass</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>decimalLatitude</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>decimalLongitude</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>geodeticDatum</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>easting</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>northing</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>utmZone</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>elevation</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><code>elevationUncertainty</code></td>
+            <td>This data product, sourced from the NEON data portal for the purposes of the ACCE DTP tutorial, contains processed individual level data from measurements of woody individuals and shrub groups.</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Distribution</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>File</th>
+          <th>Format</th>
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>individual</code></td>
+          <td><code>csv</code></td>
+          <td><a href="">Download</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+  crossorigin=""></script>
+    <script>
+      var mymap = L.map('map').setView([NA, NA], 1);
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+        maxZoom: 18,
+      }).addTo(mymap);
+
+      var polygon = L.polygon([[ NA, NA], [ NA, NA], [ NA, NA], [ NA, NA]]).addTo(mymap);
+    </script>
+  </body>
+</html>

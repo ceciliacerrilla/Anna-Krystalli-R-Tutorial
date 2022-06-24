@@ -1,0 +1,5 @@
+uid,namedLocation,date,eventID,domainID,siteID,plotID,individualID,growthForm,stemDiameter,measurementHeight,height
+1b002071-2c04-48ce-beb9-b6d749cada9c,BART_011.basePlot.vst,2016-10-17,vst_BART_2016,D01,BART,BART_011,NEON.PLA.D01.BART.05794,single bole tree,11.5,130,8.2
+addebac1-114a-4081-afad-801b0403943f,BART_007.basePlot.vst,2016-10-18,vst_BART_2016,D01,BART,BART_007,NEON.PLA.D01.BART.05787,single bole tree,10.3,130,9.3
+b2e75334-84a7-42e4-9d54-3e7724a22b88,BART_007.basePlot.vst,2016-10-18,vst_BART_2016,D01,BART,BART_007,NEON.PLA.D01.BART.05785,single bole tree,11.1,130,6.3
+239f64aa-6df0-4c92-ba7e-98b66b84242b,BART_012.basePlot.vst,2016-10-18,vst_BART_2016,D01,BART,BART_012,NEON.PLA.D01.BART.05602,single bole tree,14.6,130,16.8
